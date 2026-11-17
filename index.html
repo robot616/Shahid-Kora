@@ -114,13 +114,26 @@
 
         // قائمة القنوات المحدثة
         const channelsData = {
-                "باقة StarzPlay و Abu Dhabi": [
+            "باقة StarzPlay & Abu Dhabi": [
                 { id: "StarzPlay 1", name: "StarzPlay 1", url: "https://sps1.starzplayarabia.com/out/v1/eee188845e9543699fd24e5a9890c6e2/index.mpd", k1: "b253c726c24c7c94a3ddf9b1907e2c76", k2: "097963d6ad73c3d712a104981de0ed42" },
                 { id: "StarzPlay 1 (s2)", name: "StarzPlay 1 (s2)", url: "https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/ADSP1/wv-pr/manifest.mpd", k1: "eb5a3a48f3e191a00e3ac1e2d470c491", k2: "2c8b7198563527e524d66628c092ef1f" },
                 { id: "StarzPlay 2", name: "StarzPlay 2", url: "https://sps2.starzplayarabia.com/out/v1/15e7d1ffb99746dda03f71dbbbc3c08b/index.mpd", k1: "ee861edcd99093153a763a94b14c2c5a", k2: "ab3991f6a7729ba1ea4bcdba0c1ae6c0" },
                 { id: "StarzPlay 2 (s2)", name: "StarzPlay 2 (s2)", url: "https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/ADSP2/wv-pr/manifest.mpd", k1: "efca93272b9d34f5cf9d8598f43be5ea", k2: "55e5fe489e9c18f6c979c3126d4bcfed" },
                 { id: "StarzPlay 3", name: "StarzPlay 3", url: "https://sps3.starzplayarabia.com/out/v1/95528122fa434bcd948c9ed2e7afabee/index.mpd", k1: "117c29396ec6fd295880013241a466e1", k2: "3dfb883251884e66d784111877c44b13" },
                 { id: "StarzPlay 3 (s2)", name: "StarzPlay 3 (s2)", url: "https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/SPZ/wv-pr/manifest.mpd", k1: "42d7a462640c6748371d39f23e4a18c3", k2: "f4bef9f080f4a3a52dd55d5c3b8b81e2" },
+                { id: "AD Sports 1", name: "AD Sports 1", url: "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv/abudhabi_sports_1/abudhabi_sports_1_dash_enc/index.mpd", k1: "e78769d87a41e15036a4fb8bfdf1371e", k2: "37be0375dc9fe544c3c6de6a105f7c0a" },
+                { id: "AD Sports 1 (s2)", name: "AD Sports 1 (s2)", url: "https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/AD1/wv-pr/manifest.mpd", k1: "2810c600349a0cd3a920c7d99bbe00b1", k2: "3911049bf0e342e70e0fba2cba6aa628" },
+                { id: "AD Sports 2", name: "AD Sports 2", url: "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv/abudhabi_sports_2/abudhabi_sports_2_dash_enc/index.mpd", k1: "386a5e1166d9102709888c3468ce1f56", k2: "73bd0bd25a148b3a80116ecdd085ead6" }
+                { id: "AD Sports 2 (s2)", name: "AD Sports 2 (s2)", url: "https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/AD2/wv-pr/manifest.mpd", k1: "7295fc09a7633fd460808f1ed854a8b6", k2: "5b4c9115617286036232fbb0d583a651" },
+            ],
+            "قنوات SHASHA": [
+                { id: "SHASHA 1", name: "SHASHA 1", url: "https://213368-castr.akamaized.net/65bdf582e043b56b0868a081/live_48531dd0d68011f089c69d31d64066d9/index.m3u8", k1: "", k2: "" },
+                { id: "SHASHA 1 (s2)", name: "SHASHA 1 (s2)", url: "https://254670.global.ssl.fastly.net/693a72c2102b1e0ac9bb3f14/live_d5a45b30d66311f094baa96c56867df9/index.m3u8", k1: "", k2: "" },
+                { id: "SHASHA 2", name: "SHASHA 2", url: "https://213368-castr.akamaized.net/65bdf582e043b56b0868a081/live_7225dcc0d67f11f0bdcd396dadad2a69/index.m3u8", k1: "", k2: "" },
+                { id: "SHASHA 3", name: "SHASHA 3", url: "https://213368-castr.akamaized.net/65bdf582e043b56b0868a081/live_f9263810514911f186a0752ee758b37c/index.m3u8", k1: "", k2: "" },
+                { id: "SHASHA 4", name: "SHASHA 4", url: "https://213368-castr.akamaized.net/65bdf582e043b56b0868a081/live_1d3b9f50d68011f0891ac1acf28a6858/index.m3u8", k1: "", k2: "" },
+                { id: "SHASHA 5", name: "SHASHA 5", url: "https://213368-castr.akamaized.net/65bdf582e043b56b0868a081/live_1dc7d580558d11efa2eeebd0ba5ae7e5/index.m3u8", k1: "", k2: "" },
+                { id: "SHASHA 6", name: "SHASHA 6", url: "https://213368-castr.akamaized.net/65bdf582e043b56b0868a081/live_0586efe0c2e611eeb02035c643a92b1e/index.m3u8", k1: "", k2: "" },
             ],
            "قنوات STC Sports": [
                 { id: "STC Sports 1", name: "STC Sports 1", url: "https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/STC/wv-pr/manifest.mpd", k1: "47f0ab58f5a81c20b5b69dc494cbe102", k2: "1e0719da653c2b4652f0b0bf84d96c74" },
